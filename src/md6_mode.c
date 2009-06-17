@@ -423,6 +423,7 @@ int md6_full_init( md6_state *st,       /* uninitialized state to use */
 
   md6_detect_byte_order();
   memset(st,0,sizeof(md6_state));  /* clear state to zero */
+  st->sig = MD6_SIG;
   st->d = d;                       /* save hashbitlen */
   if (key != NULL && keylen > 0)   /* if no key given, use memset zeros*/
     { memcpy(st->K,key,keylen);    /* else save key (with zeros added) */
