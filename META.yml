@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Digest-MD6
-version:            0.08
+version:            0.09
 abstract:           ~
 author:
     - Andy Armstrong <andy@hexten.net>
@@ -19,7 +19,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.50
+generated_by:       ExtUtils::MakeMaker version 6.52
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

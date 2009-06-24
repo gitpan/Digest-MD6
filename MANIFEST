@@ -1,3 +1,4 @@
+inc/Devel/CheckLib.pm
 Changes
 hints/dec_osf.pl
 hints/irix_6.pl
@@ -26,5 +27,6 @@ t/clone.t
 t/md6-aaa.t
 t/pod.t
 t/ref.t
+t/reset.t
 typemap
 META.yml                                 Module meta-data (added by MakeMaker)
