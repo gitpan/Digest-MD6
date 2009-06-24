@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Digest-MD6
-version:            0.09
+version:            0.10
 abstract:           ~
 author:
     - Andy Armstrong <andy@hexten.net>
